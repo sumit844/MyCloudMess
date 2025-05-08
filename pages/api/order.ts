@@ -1,6 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import axios from "axios";
-import ContactUs from "@/components/Mongoose/contactus";
+
 const hander = async (req: NextApiRequest, res: NextApiResponse) => {
   if (req.method === "POST") {
     try {

@@ -8,9 +8,6 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { CheckCircle } from "lucide-react"
-import { accessSync } from "node:fs"
-import axios from "axios"
-import ContactUs from "@/components/Mongoose/contactus"
 
 export function ContactForm() {
   const [formState, setFormState] = useState({
