@@ -31,7 +31,7 @@ export default function Header() {
         </Link>
         <Link
           href="/cart"
-          className="relative md:hidden ml-[8.5rem] text-brand-orange"
+          className="relative md:hidden ml-[2.5rem] text-brand-orange"
         >
           <ShoppingCart className="h-6 w-6" />
           {totalItems > 0 && (
